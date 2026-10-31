@@ -121,6 +121,15 @@ export default function PrankRevealModal({ isOpen, onClose, onReset, formData })
           </span>
         </h2>
 
+        {/* Customized Prank Mastermind Callout */}
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-2xl bg-gradient-to-r from-rose-500/20 via-amber-500/20 to-purple-500/20 border border-amber-400/40 text-rose-200 font-heading text-sm sm:text-base font-bold my-3 shadow-lg shadow-rose-500/10">
+          <span>🎯 You got pranked by</span>
+          <span className="text-amber-300 font-extrabold tracking-wide text-base sm:text-lg underline decoration-amber-400 decoration-2 underline-offset-4">
+            Hariom Yadav
+          </span>
+          <span className="text-lg">😎</span>
+        </div>
+
         {/* Subtitle */}
         <p className="text-base sm:text-xl text-slate-200 font-semibold max-w-xl mx-auto mb-6">
           Welcome to Yadav Inftech. Your first challenge was catching the Submit button!
@@ -128,6 +137,10 @@ export default function PrankRevealModal({ isOpen, onClose, onReset, formData })
 
         {/* Funny Assessment Summary */}
         <div className="glass-panel p-5 rounded-2xl border border-white/10 text-left mb-6 max-w-lg mx-auto space-y-3 font-mono text-xs sm:text-sm">
+          <div className="flex items-center justify-between border-b border-white/5 pb-2">
+            <span className="text-slate-400">Prank Mastermind:</span>
+            <span className="text-amber-300 font-bold">Hariom Yadav 👑</span>
+          </div>
           <div className="flex items-center justify-between border-b border-white/5 pb-2">
             <span className="text-slate-400">Candidate Name:</span>
             <span className="text-cyan-300 font-bold">{candidateName}</span>
@@ -261,8 +274,8 @@ export default function PrankRevealModal({ isOpen, onClose, onReset, formData })
               {/* Signatures */}
               <div className="pt-8 mt-6 border-t border-amber-500/30 flex items-center justify-between text-xs font-mono">
                 <div>
-                  <div className="font-serif italic text-base text-amber-300">Er. Yadav</div>
-                  <div className="text-slate-400">CEO & Chief Prankster</div>
+                  <div className="font-serif italic text-base text-amber-300">Hariom Yadav</div>
+                  <div className="text-slate-400">Founder & Chief Prankster</div>
                   <div className="text-[10px] text-slate-500">Yadav Inftech Labs</div>
                 </div>
 

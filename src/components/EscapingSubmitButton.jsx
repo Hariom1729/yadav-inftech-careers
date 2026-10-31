@@ -18,6 +18,7 @@ const FUNNY_MESSAGES = [
   "Almost there!",
   "Your future is running away!",
   "Nice try, candidate!",
+  "Hariom Yadav coded my reflexes! 🚀",
   "Yadav Inftech security is too strong!",
   "The HR team is watching you 👀",
   "Error 418: Button has sentient reflexes! 🤖",
